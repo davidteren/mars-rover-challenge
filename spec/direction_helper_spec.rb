@@ -5,8 +5,8 @@ require_relative '../lib/direction_helper'
 
 describe DirectionHelper do
   describe '.change_orientation' do
-    context "given sa 'L' or 'R's" do
-      it 'turns to face the correct direction ' do
+    context "given a 'L' or 'R'" do
+      it 'changes orientation' do
         expect(subject.change_orientation('N', 'L')).to eq('W')
         expect(subject.change_orientation('N', 'R')).to eq('E')
         expect(subject.change_orientation('W', 'R')).to eq('N')

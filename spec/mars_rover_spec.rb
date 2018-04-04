@@ -21,14 +21,14 @@ describe RoverNavigation do
       end
     end
 
-    context 'given moves ' do
+    context 'given a move ' do
       it 'returns the new position' do
         subject = RoverNavigation.new(0, 0, 'N')
         expect(subject.nasa_command('MM')).to eq([0, 2, 'N'])
       end
     end
 
-    context 'given orientation & moves' do
+    context 'given orientations & moves' do
       it 'returns the new position & orientation' do
         subject = RoverNavigation.new(1, 2, 'N')
         expect(subject.nasa_command('LM')).to eq([0, 2, 'W'])

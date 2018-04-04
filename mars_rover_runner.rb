@@ -25,7 +25,7 @@ module MarsRoverRunner
 
   def welcome_msg
     line
-    puts "\t Welcome to the Mar Rover Explorer!"
+    puts "\tWelcome to the Mar Rover Explorer!"
     line
     puts
   end
