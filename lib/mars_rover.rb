@@ -9,7 +9,6 @@ class RoverNavigation
     @x_pos = x_pos
     @y_pos = y_pos
     @orientation = orientation
-    p current_position
   end
 
   def nasa_command(string)
