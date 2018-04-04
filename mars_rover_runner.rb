@@ -11,10 +11,10 @@ module MarsRoverRunner
     demo_data.each do |params|
       rover_id_and_position(params)
       sp = params[1]['start_position']
-      rover_one = RoverNavigation.new(sp[0], sp[1], sp[2])
+      rover = RoverNavigation.new(sp[0], sp[1], sp[2])
       puts "Processing:\t\t\t#{params[1]['nasa_command']}"
-      rover_one.nasa_command(params[1]['nasa_command'])
-      nasa_command_outcome(params, rover_one)
+      rover.nasa_command(params[1]['nasa_command'])
+      nasa_command_outcome(params, rover)
     end
   end
 
