@@ -12,7 +12,7 @@
    
 - Clone the repo  
  - CD into `pf45-mrc`   
-- Run the following to install th Rspec Gem if you want to run the tests.  
+- Run the following to install the Rspec Gem if you want to run the tests.  
    
    
       bundle install 
