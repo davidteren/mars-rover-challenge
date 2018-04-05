@@ -1,5 +1,7 @@
 
 # Mars Rover Challenge  
+
+For more infromation see here: [Mars Rover Technical Challenge](https://goo.gl/4YAyNG)
   
 #### Requirements  
   
