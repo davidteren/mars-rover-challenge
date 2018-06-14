@@ -13,7 +13,7 @@ For more infromation see here: [Mars Rover Technical Challenge](https://goo.gl/4
  #### Usage   
    
 - Clone the repo  
- - CD into `pf45-mrc`   
+ - CD into `mars-rover-challenge`   
 - Run the following to install the Rspec Gem if you want to run the tests.  
    
    
